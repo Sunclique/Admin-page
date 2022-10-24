@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+
+body {margin: 0;
+font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+}
+.top{
+  max-height:70px;
+  padding: 16px 18px;
+  border-bottom: 0px solid #aaa;
+  background-color: #F8F9FA;
+  text-align: right;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+}
+.greet{
+  padding:5px 20px 5px 20px;
+  background-color: #6C757D;
+  float: right;
+  border-top:3px solid #6C757D;
+  border-radius: 5px;
+  border-bottom: 3px solid #6C757D;
+  margin-right: 50px;
+  color: white;
+  
+}
+
+.overview-links{
+  background-color: #F8F9FA;
+  padding: 10px 0 10px 10px;
+}
+
+.search-container{
+  float: left;
+  padding-left: 260px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.search-container button{
+  height: 28px;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+}
+.search-container button:hover{
+  background: #ccc;
+  
+}
+
+.welcome{
+  color: black;
+  text-align: center;
+}
+ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #F8F9FA;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+ul.sidenav li a {
+  display: block;
+  color: black;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+ 
+ul.sidenav li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 25%;
+  padding: 70px 16px;
+  height: auto;
+  overflow: scroll;
+}
+
+.row {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 16px;
+}
+
+th{
+  font-size: 14pt;
+  background-color: #f2f2f2;
+}
+tr {
+  background-color: white;
+}
+
+.transaction tr,
+.transaction to {
+  border-bottom: 1px solid #ddd;
+}
+.increase {
+  color: green;
+}
+.decrease {
+  color: red;
+}
+.transaction,
+.traffic {
+  width: 100%;
+  margin-top: 40px;
+}
+.inner-head{
+  background-color: #fff;
+  border-bottom: 5px solid black;
+}
+
+.view{
+  background-color: green;
+  height: 32px;
+  width: 48px;
+  border-radius: 4px;
+  border: 1px solid green;
+  font-size: 15px;
+  color: #fff;
+}
+.expand {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 10px 0 10px 0;
+}
+
+.footer a{
+ text-decoration: none;
+color: green;
+}
+.footer {
+  padding: 15px;
+  margin: 20px;
+  color: #000;
+}
+.overview-links a{
+  color: green;
+}
+
+ul.nav-footer{
+  list-style: none;
+  overflow: hidden;
+}
+ul.nav-footer li a {
+  display: block;
+  text-decoration: none;
+  float: right;
+  padding: 20px;
+  color: green;
+}
+@media screen and (max-width: 900px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  h3{
+    text-align: center;
+  }
+  
+  .title {
+    margin: 0 50px 0 50px;
+  }
+  .greet{
+    visibility: hidden;
+  }
+  .search-container{
+    padding-left: 70px;
+  }
+  
+  .top{
+    position: relative;
+    overflow: hidden;
+    width: auto;
+  }
+  
+    .column {
+      width: 100%;
+    }
+    
+
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0px;}
+  .footer{
+    text-align: right;
+    margin: auto;
+    padding:auto;
+
+  }
+
+ .transaction{
+   overflow: auto;
+ } 
+  
+}
+@media screen and (max-width: 400px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+}
