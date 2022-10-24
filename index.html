@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>DASHBOARD</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/x-icon" href="/Music_logo.svg">
+</head>
+
+<body>
+        <!-- Top Navigation -->
+  <div class="top">
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+    <button class="greet">Hello, Sunday Vegher <i class="far fa-caret-square-down"></i></button>
+  </div>
+  
+          <!-- Side Navigation -->
+  
+  <ul class="sidenav">
+    <li class="welcome"><i class="fa fa-house"></i><h4>COMPANY'S NAME & LOGO</h4></li>
+    <li><a class="active" href="#home"> <i class="fa fa-house-user"></i>
+   DASHBOARD</a></li>
+    <li><a href="#news"> <i class="fa fa-sticky-note"></i>
+   ORDERS</a></li>
+    <li><a href="#contact"> <i class="fa fa-shopping-cart"></i>
+   PRODUCTS</a></li>
+    <li><a href="#about"> <i class="fa fa-user"></i>
+   CUSTOMERS</a></li>
+    <li><a href="#contact"> <i class="fa fa-list-alt"></i>
+       REPORT</a></li>
+    <li><a href="#about"> <i class="fab fa-buffer"></i>
+        INTEGRATIONS</a></li>
+    <li><a href="#about"> <i class="fa fa-sliders-h"></i>
+        SETTINGS</a></li>
+    <li><a href="#contact"> <i class="fa fa-person-booth"></i>
+        LOG-OUT</a></li
+  </ul>
+
+          <!-- HTML Content -->
+  <div class="content">
+ 
+    <p class="overview-links"><a href="#">Home</a> / Overview</p>
+    <h2>DASHBOARD</h2>
+    <p> This is the dashboard of an admin in a fictional company</p>
+    
+          <!-- Customer and Revenue -->
+    <div class="row">
+      <div class="column">
+        <table>
+          <tr>
+            <th>Customers</th>
+          </tr>
+          <tr>
+            <td>
+              <h3>360k</h3>
+              <p>Jan 1 - April 31, United States</p>
+              <p class="increase">17.3% increase since last month</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="column">
+        <table>
+          <tr>
+            <th>Revenue</th>
+          </tr>
+          <tr>
+            <td>
+              <h3>$3.2k</h3>
+              <p>Jan 1 - April 31, United States</p>
+              <p class="increase">5.0% increase since last month</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+          <!-- Purchases and Traffic -->
+
+    <div class="row" style="margin-top: 10px">
+      <div class="column">
+        <table>
+          <tr>
+            <th>Purchases</th>
+          </tr>
+          <tr>
+            <td>
+              <h3>50</h3>
+              <p>Jan 1 - April 31, United States</p>
+              <p class="decrease">2.4% increase since last month</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="column">
+        <table>
+          <tr>
+            <th>Traffic</th>
+          </tr>
+          <tr>
+            <td>
+              <h3>71k</h3>
+              <p>Jan 1 - April 31, United States</p>
+              <p class="increase">2.7% increase since last month</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+            <!-- Latest transaction -->
+    <div class="transaction">
+      <table>
+        <tr>
+          <th> Latest transactions</th>
+        </tr>
+        <tr>
+          <table>
+            <tr class="inner-head" style="border-bottom: 1px solid black;">
+              <td><b>Order</td>
+              <td><b>Product</td>
+              <td><b>Customer</td>
+              <td><b>Total</td>
+              <td><b>Date</td>
+              <td></td>
+            </tr>
+      
+            <tr>
+              <td><b>42154254</td>
+              <td>2022 Mazda Mazda3</td>
+              <td>Loremipsum@gmail.com</td>
+              <td>€150.10</td>
+              <td>Oct 20th 2022</td>
+              <td><button class="view">view</button></td>
+            </tr>
+            
+            <tr>
+              <td><b>42154126</td>
+              <td>2022 Mercedes-Benz C-class</td>
+              <td>Loremipsum@gmail.com</td>
+              <td>$520.15</td>
+              <td>Oct 22nd 2022</td>
+              <td><button class="view">view</button></td>
+            </tr>
+            
+            <tr>
+              <td><b>42154254</td>
+              <td>2022 Honda Civic</td>
+              <td>Loremipsum@gmail.com</td>
+              <td>€150.10</td>
+              <td>Oct 22nd 2022</td>
+              <td><button class="view">view</button></td>
+            </tr>
+            
+            <tr>
+              <td><b>42154126</td>
+              <td>2023 Audi A4</td>
+              <td>Loremipsum@gmail.com</td>
+              <td>$520.15</td>
+              <td>Oct 20th 2022</td>
+              <td><button class="view">view</button></td>
+            </tr>
+            
+            <tr>
+              <td><b>42154254</td>
+              <td>2022 Chevrolet Bolt</td>
+              <td>Loremipsum@gmail.com</td>
+              <td>€150.10</td>
+              <td>Oct 20th 2022</td>
+              <td><button class="view">view</button></td>
+            </tr>
+            
+            <tr>
+              <td><b>42154126</td>
+              <td>2022 Audi A5</td>
+              <td>Loremipsum@gmail.com</td>
+              <td>$520.15</td>
+              <td>Oct 22nd 2022</td>
+              <td><button class="view">view</button></td>
+            </tr>
+            
+            <tr>
+              <td colspan="6"><div class="expand">View all</div>
+              </td>
+            </tr>
+            
+          </table>
+        </tr>
+      </table>
+    </div>
+
+       <!-- Traffic within 6 months -->
+    <div class="traffic">
+      <table>
+        <tr>
+          <th>Traffic last 6 months</th>
+        </tr>
+        <tr>
+          <td>Below is the traffic within the last 6 month</td>
+        </tr>
+      </table>
+    </div>
+
+        <!-- Footer -->
+    
+    
+    <footer class="footer">
+      <span cl>Copyright © 2022 <a href="#">Sunclique</a></span>
+      
+      <ul class="nav-footer">
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="#">Terms and conditions</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+      
+    </footer>
+  </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
