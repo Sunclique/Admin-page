@@ -53,7 +53,7 @@ font-family: Georgia, Verdana, sans-serif;
   color: black;
   text-align: center;
 }
-ul.sidenav {
+.sidenav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -64,19 +64,19 @@ ul.sidenav {
   overflow: auto;
 }
 
-ul.sidenav li a {
+.sidenav li a {
   display: block;
   color: black;
   padding: 18px 16px;
   text-decoration: none;
 }
  
-ul.sidenav li a.active {
+.sidenav li a.active {
   background-color: #4CAF50;
   color: white;
 }
 
-ul.sidenav li a:hover:not(.active) {
+.sidenav li a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
@@ -218,7 +218,7 @@ ul.nav-footer li a {
     }
     
 
-  ul.sidenav li a {
+  .sidenav li a {
     float: left;
     padding: 15px;
   }
@@ -237,7 +237,7 @@ ul.nav-footer li a {
   
 }
 @media screen and (max-width: 400px) {
-  ul.sidenav li a {
+  .sidenav li a {
     text-align: center;
     float: none;
   }
